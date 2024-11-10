@@ -1,0 +1,21 @@
+.navbar-toggler {
+    color: #000 !important;
+    border: #000 solid !important;
+    border-radius: var(--bs-navbar-toggler-border-radius) !important;
+}
+
+#team .contaniner {
+    width: 90% !important;
+}
+
+.img-fluid {
+    max-width: 80% !important;
+}
+
+.team .member .member-info {
+    width: 70% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block !important;
+
+}
