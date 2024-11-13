@@ -2,6 +2,7 @@
     color: #000 !important;
     border: #000 solid !important;
     border-radius: var(--bs-navbar-toggler-border-radius) !important;
+   
 }
 
 #team .contaniner {
@@ -19,3 +20,38 @@
     display: block !important;
 
 }
+
+.colorBeige{
+    background-color: #696354;
+}
+.colorVerde{
+    background-color: #0c312b;
+}
+.colorVainilla{
+    background-color: #87837a;
+}
+.colorMarron{
+    background-color: #271106;
+}
+.colorGris{
+    background-color: #262824;
+}
+.colorNegro{
+    background-color: #000;
+}
+
+.colorBlanco{
+    background-color: #fff;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    cursor: pointer;
+    background-color: transparent;
+}
+.portfolio-modal .modal-content {
+    padding-top: 2rem !important;}

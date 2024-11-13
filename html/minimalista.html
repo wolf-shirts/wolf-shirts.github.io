@@ -157,51 +157,66 @@
                         <div class="col-lg-12">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h4 class="text-uppercase">OVERSIZE MINIMALISTA - DARK FUTURE</h4>
+                                <h4 class="text-uppercase">DARK FUTURE</h4>
                                 <div id="portfolio">
                                     <div class="container-fluid p-0">
                                         <div class="row g-0">
-                                            <div class="col-lg-6 col-sm-6">
-                                                <img class="img-fluid" src="img/DARK_FUTURE/BEIGE.webp" alt="..." />
+                                            <div class="col-12 col-sm-6 .col-md-6 col-lg-6" id="contenedor-imagen">
+                                                <img src="img/DARK_FUTURE/BEIGE.webp" class="d-block w-100"
+                                                    alt="Imagen 1">
                                             </div>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <img class="img-fluid" src="img/DARK_FUTURE/BLANCO.webp" alt="..." />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <img class="img-fluid" src="img/DARK_FUTURE/GRIS.webp" alt="..." />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <img class="img-fluid" src="img/DARK_FUTURE/MARRON.webp" alt="..." />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <img class="img-fluid" src="img/DARK_FUTURE/VAINILLA.webp" alt="..." />
-                                            </div>
-                                            <div class="col-lg-6 col-sm-6">
-                                                <img class="img-fluid" src="img/DARK_FUTURE/VERDE.webp" alt="..." />
+                                            <div class="text-center my-3 col-12 col-sm-6 .col-md-6 col-lg-6">
+                                                <div class="row">
+                                                    <h3 class="text-dark">Colores Disponibles</h3>
+                                                    <div class="col-12">
+
+                                                        <button class="btn colorBeige"
+                                                            id="beige">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                        <button class="btn colorMarron"
+                                                            id="marron">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                        <button class="btn colorVainilla color-button"
+                                                            id="vainilla">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                        <button class="btn colorVerde color-button"
+                                                            id="verde">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                        <button class="btn colorBlanco color-button"
+                                                            style="border:1px solid #000;"
+                                                            id="blanco">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                        <button class="btn colorGris color-button"
+                                                            id="gris">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                        <button class="btn colorNegro color-button"
+                                                            id="negro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                    </div>
+                                                </div>
+                                                <br><br>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <ul class="list-inline">
+                                                            <li>
+                                                                <h3 class="text-dark">Tallas</h3>
+                                                                S&nbsp;&nbsp;M&nbsp;&nbsp;X&nbsp;&nbsp;XL
+                                                            </li>
+                                                        </ul>
+                                                        <a class="btn btn-success btn-xl text-uppercase" target="_blank"
+                                                            href="https://api.whatsapp.com/send?phone=57300000000&text=Hola......">
+                                                            <i class="fa-brands fa-whatsapp me-1"></i>
+                                                            COMPRAR
+                                                        </a>
+                                                    </div>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Tallas:</strong>
-                                        S&nbsp;&nbsp;M&nbsp;&nbsp;X&nbsp;&nbsp;XL
-                                    </li>
-                                    <li>
-                                        <strong>Disponibles en los colores vistos</strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fa fa-whatsapp me-1"></i>
-                                    COMPRAR
-                                </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
 
 
@@ -215,7 +230,46 @@
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
+    <script>
 
+        const contenedorImagen = document.getElementById('contenedor-imagen');
+        const imagen = contenedorImagen.querySelector('img');
+
+        const boton1 = document.getElementById('beige');
+        const boton2 = document.getElementById('marron');
+        const boton3 = document.getElementById('vainilla');
+        const boton4 = document.getElementById('verde');
+        const boton5 = document.getElementById('blanco');
+        const boton6 = document.getElementById('gris');
+        const boton7 = document.getElementById('negro');
+
+        boton1.addEventListener('click',
+            () => {
+                imagen.src = 'img/DARK_FUTURE/BEIGE.webp';
+            });
+
+        boton2.addEventListener('click', () => {
+            imagen.src = 'img/DARK_FUTURE/MARRON.webp';
+        });
+
+        boton3.addEventListener('click', () => {
+            imagen.src = 'img/DARK_FUTURE/VAINILLA.webp';
+        });
+        boton4.addEventListener('click', () => {
+            imagen.src = 'img/DARK_FUTURE/VERDE.webp';
+        });
+        boton5.addEventListener('click', () => {
+            imagen.src = 'img/DARK_FUTURE/BLANCO.webp';
+        });
+        boton6.addEventListener('click', () => {
+            imagen.src = 'img/DARK_FUTURE/GRIS.webp';
+        });
+        boton7.addEventListener('click', () => {
+            imagen.src = 'img/DARK_FUTURE/NEGRO.webp';
+        });
+
+
+    </script>
 
 </body>
 
