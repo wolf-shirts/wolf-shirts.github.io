@@ -28,7 +28,6 @@ const productos = [
         colores: {
             Beige: "img/NEUTRALS/BEIGE.webp",
             Vainilla: "img/NEUTRALS/VAINILLA.webp",
-            Verde: "img/NEUTRALS/VERDE.webp",
             Blanco: "img/NEUTRALS/BLANCO.webp",
         },
         tallas: ["S", "M", "L", "XL"],
