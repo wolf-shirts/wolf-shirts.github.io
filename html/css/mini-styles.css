@@ -76,4 +76,6 @@
     width: 30% !important;}
 
 .btn-color { width: 60px; height: 60px; margin: 5px; border-radius: 50%; border: 1px solid #000; }
-    
+.pic img {
+    transition: 0.3s ease;
+}

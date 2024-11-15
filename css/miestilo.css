@@ -1,0 +1,21 @@
+#hrIndex {
+    border: none;
+    width: 70%;
+    height: 50px;
+    box-shadow: 0 25px 15px -20px #333;
+    margin: -50px auto 10px;
+}
+
+
+    section {
+        padding: 2rem 0 !important;
+    }
+
+#aMinimalista{
+    text-decoration: none; 
+    color: black;   
+}
+
+#aMinimalista:hover{
+    text-decoration:underline;
+}
