@@ -19,3 +19,10 @@
 #aMinimalista:hover{
     text-decoration:underline;
 }
+
+.sectionPremium{
+    padding: 0rem 0 !important;
+}
+
+header.masthead .masthead-subheading {
+    font-size: 1.6rem !important;}

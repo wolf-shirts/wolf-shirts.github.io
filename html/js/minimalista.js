@@ -4,16 +4,16 @@ const productos = [
         nombre: "DARK FUTURE",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/DARK_FUTURE/VERDE.webp",
-        imagenSecundaria: "img/DARK_FUTURE/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/DARK_FUTURE/VERDE.webp",
+        imagenSecundaria: "img/minimalista/DARK_FUTURE/BEIGE.webp",
         colores: {
-            Beige: "img/DARK_FUTURE/BEIGE.webp",
-            Marron: "img/DARK_FUTURE/MARRON.webp",
-            Vainilla: "img/DARK_FUTURE/VAINILLA.webp",
-            Verde: "img/DARK_FUTURE/VERDE.webp",
-            Blanco: "img/DARK_FUTURE/BLANCO.webp",
-            Gris: "img/DARK_FUTURE/GRIS.webp",
-            Negro: "img/DARK_FUTURE/NEGRO.webp"
+            Beige: "img/minimalista/DARK_FUTURE/BEIGE.webp",
+            Marron: "img/minimalista/DARK_FUTURE/MARRON.webp",
+            Vainilla: "img/minimalista/DARK_FUTURE/VAINILLA.webp",
+            Verde: "img/minimalista/DARK_FUTURE/VERDE.webp",
+            Blanco: "img/minimalista/DARK_FUTURE/BLANCO.webp",
+            Gris: "img/minimalista/DARK_FUTURE/GRIS.webp",
+            Negro: "img/minimalista/DARK_FUTURE/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -23,12 +23,12 @@ const productos = [
         nombre: "NEUTRALS",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/NEUTRALS/BLANCO.webp",
-        imagenSecundaria: "img/NEUTRALS/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/NEUTRALS/BLANCO.webp",
+        imagenSecundaria: "img/minimalista/NEUTRALS/BEIGE.webp",
         colores: {
-            Beige: "img/NEUTRALS/BEIGE.webp",
-            Vainilla: "img/NEUTRALS/VAINILLA.webp",
-            Blanco: "img/NEUTRALS/BLANCO.webp",
+            Beige: "img/minimalista/NEUTRALS/BEIGE.webp",
+            Vainilla: "img/minimalista/NEUTRALS/VAINILLA.webp",
+            Blanco: "img/minimalista/NEUTRALS/BLANCO.webp",
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -38,16 +38,16 @@ const productos = [
         nombre: "KEEP ON GOING",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/KEEP_ON_GOING/NEGRO.webp",
-        imagenSecundaria: "img/KEEP_ON_GOING/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/KEEP_ON_GOING/NEGRO.webp",
+        imagenSecundaria: "img/minimalista/KEEP_ON_GOING/BEIGE.webp",
         colores: {
-            Beige: "img/KEEP_ON_GOING/BEIGE.webp",
-            Marron: "img/KEEP_ON_GOING/MARRON.webp",
-            Vainilla: "img/KEEP_ON_GOING/VAINILLA.webp",
-            Verde: "img/KEEP_ON_GOING/VERDE.webp",
-            Blanco: "img/KEEP_ON_GOING/BLANCO.webp",
-            Gris: "img/KEEP_ON_GOING/GRIS.webp",
-            Negro: "img/KEEP_ON_GOING/NEGRO.webp"
+            Beige: "img/minimalista/KEEP_ON_GOING/BEIGE.webp",
+            Marron: "img/minimalista/KEEP_ON_GOING/MARRON.webp",
+            Vainilla: "img/minimalista/KEEP_ON_GOING/VAINILLA.webp",
+            Verde: "img/minimalista/KEEP_ON_GOING/VERDE.webp",
+            Blanco: "img/minimalista/KEEP_ON_GOING/BLANCO.webp",
+            Gris: "img/minimalista/KEEP_ON_GOING/GRIS.webp",
+            Negro: "img/minimalista/KEEP_ON_GOING/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -57,16 +57,16 @@ const productos = [
         nombre: "BURBERRY",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/BURBERRY/BEIGE.webp",
-        imagenSecundaria: "img/BURBERRY/BLANCO.webp",
+        imagenPrincipal: "img/minimalista/BURBERRY/BEIGE.webp",
+        imagenSecundaria: "img/minimalista/BURBERRY/BLANCO.webp",
         colores: {
-            Beige: "img/BURBERRY/BEIGE.webp",
-            Marron: "img/BURBERRY/MARRON.webp",
-            Vainilla: "img/BURBERRY/VAINILLA.webp",
-            Verde: "img/BURBERRY/VERDE.webp",
-            Blanco: "img/BURBERRY/BLANCO.webp",
-            Gris: "img/BURBERRY/GRIS.webp",
-            Negro: "img/BURBERRY/NEGRO.webp"
+            Beige: "img/minimalista/BURBERRY/BEIGE.webp",
+            Marron: "img/minimalista/BURBERRY/MARRON.webp",
+            Vainilla: "img/minimalista/BURBERRY/VAINILLA.webp",
+            Verde: "img/minimalista/BURBERRY/VERDE.webp",
+            Blanco: "img/minimalista/BURBERRY/BLANCO.webp",
+            Gris: "img/minimalista/BURBERRY/GRIS.webp",
+            Negro: "img/minimalista/BURBERRY/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -76,16 +76,16 @@ const productos = [
         nombre: "BEAUTIFUL",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/BEAUTIFUL/NEGRO.webp",
-        imagenSecundaria: "img/BEAUTIFUL/GRIS.webp",
+        imagenPrincipal: "img/minimalista/BEAUTIFUL/NEGRO.webp",
+        imagenSecundaria: "img/minimalista/BEAUTIFUL/GRIS.webp",
         colores: {
-            Beige: "img/BEAUTIFUL/BEIGE.webp",
-            Marron: "img/BEAUTIFUL/MARRON.webp",
-            Vainilla: "img/BEAUTIFUL/VAINILLA.webp",
-            Verde: "img/BEAUTIFUL/VERDE.webp",
-            Blanco: "img/BEAUTIFUL/BLANCO.webp",
-            Gris: "img/BEAUTIFUL/GRIS.webp",
-            Negro: "img/BEAUTIFUL/NEGRO.webp"
+            Beige: "img/minimalista/BEAUTIFUL/BEIGE.webp",
+            Marron: "img/minimalista/BEAUTIFUL/MARRON.webp",
+            Vainilla: "img/minimalista/BEAUTIFUL/VAINILLA.webp",
+            Verde: "img/minimalista/BEAUTIFUL/VERDE.webp",
+            Blanco: "img/minimalista/BEAUTIFUL/BLANCO.webp",
+            Gris: "img/minimalista/BEAUTIFUL/GRIS.webp",
+            Negro: "img/minimalista/BEAUTIFUL/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -95,16 +95,16 @@ const productos = [
         nombre: "RESISTANCE THAT INSPIRES",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/RESISTANCE_THAT_INSPIRES/MARRON1.webp",
-        imagenSecundaria: "img/RESISTANCE_THAT_INSPIRES/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/RESISTANCE_THAT_INSPIRES/MARRON1.webp",
+        imagenSecundaria: "img/minimalista/RESISTANCE_THAT_INSPIRES/BEIGE.webp",
         colores: {
-            Beige: "img/RESISTANCE_THAT_INSPIRES/BEIGE.webp",
-            Marron: "img/RESISTANCE_THAT_INSPIRES/MARRON.webp",
-            Vainilla: "img/RESISTANCE_THAT_INSPIRES/VAINILLA.webp",
-            Verde: "img/RESISTANCE_THAT_INSPIRES/VERDE.webp",
-            Blanco: "img/RESISTANCE_THAT_INSPIRES/BLANCO.webp",
-            Gris: "img/RESISTANCE_THAT_INSPIRES/GRIS.webp",
-            Negro: "img/RESISTANCE_THAT_INSPIRES/NEGRO.webp"
+            Beige: "img/minimalista/RESISTANCE_THAT_INSPIRES/BEIGE.webp",
+            Marron: "img/minimalista/RESISTANCE_THAT_INSPIRES/MARRON.webp",
+            Vainilla: "img/minimalista/RESISTANCE_THAT_INSPIRES/VAINILLA.webp",
+            Verde: "img/minimalista/RESISTANCE_THAT_INSPIRES/VERDE.webp",
+            Blanco: "img/minimalista/RESISTANCE_THAT_INSPIRES/BLANCO.webp",
+            Gris: "img/minimalista/RESISTANCE_THAT_INSPIRES/GRIS.webp",
+            Negro: "img/minimalista/RESISTANCE_THAT_INSPIRES/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -114,16 +114,16 @@ const productos = [
         nombre: "RANDOM",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/RANDOM/VERDE.webp",
-        imagenSecundaria: "img/RANDOM/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/RANDOM/VERDE.webp",
+        imagenSecundaria: "img/minimalista/RANDOM/BEIGE.webp",
         colores: {
-            Beige: "img/RANDOM/BEIGE.webp",
-            Marron: "img/RANDOM/MARRON.webp",
-            Vainilla: "img/RANDOM/VAINILLA.webp",
-            Verde: "img/RANDOM/VERDE.webp",
-            Blanco: "img/RANDOM/BLANCO.webp",
-            Gris: "img/RANDOM/GRIS.webp",
-            Negro: "img/RANDOM/NEGRO.webp"
+            Beige: "img/minimalista/RANDOM/BEIGE.webp",
+            Marron: "img/minimalista/RANDOM/MARRON.webp",
+            Vainilla: "img/minimalista/RANDOM/VAINILLA.webp",
+            Verde: "img/minimalista/RANDOM/VERDE.webp",
+            Blanco: "img/minimalista/RANDOM/BLANCO.webp",
+            Gris: "img/minimalista/RANDOM/GRIS.webp",
+            Negro: "img/minimalista/RANDOM/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -133,16 +133,16 @@ const productos = [
         nombre: "MADE IN THE IMAGE OF GOD",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/MADE_IN_THE_IMAGE_OF_GOD/VAINILLA.webp",
-        imagenSecundaria: "img/MADE_IN_THE_IMAGE_OF_GOD/VERDE.webp",
+        imagenPrincipal: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/VAINILLA.webp",
+        imagenSecundaria: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/VERDE.webp",
         colores: {
-            Beige: "img/MADE_IN_THE_IMAGE_OF_GOD/BEIGE.webp",
-            Marron: "img/MADE_IN_THE_IMAGE_OF_GOD/MARRON.webp",
-            Vainilla: "img/MADE_IN_THE_IMAGE_OF_GOD/VAINILLA.webp",
-            Verde: "img/MADE_IN_THE_IMAGE_OF_GOD/VERDE.webp",
-            Blanco: "img/MADE_IN_THE_IMAGE_OF_GOD/BLANCO.webp",
-            Gris: "img/MADE_IN_THE_IMAGE_OF_GOD/GRIS.webp",
-            Negro: "img/MADE_IN_THE_IMAGE_OF_GOD/NEGRO.webp"
+            Beige: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/BEIGE.webp",
+            Marron: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/MARRON.webp",
+            Vainilla: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/VAINILLA.webp",
+            Verde: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/VERDE.webp",
+            Blanco: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/BLANCO.webp",
+            Gris: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/GRIS.webp",
+            Negro: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -152,15 +152,15 @@ const productos = [
         nombre: "LUXURY",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/LUXURY/GRIS.webp",
-        imagenSecundaria: "img/LUXURY/VAINILLA.webp",
+        imagenPrincipal: "img/minimalista/LUXURY/GRIS.webp",
+        imagenSecundaria: "img/minimalista/LUXURY/VAINILLA.webp",
         colores: {
-            Beige: "img/LUXURY/BEIGE.webp",
-            Marron: "img/LUXURY/MARRON.webp",
-            Vainilla: "img/LUXURY/VAINILLA.webp",
-            Verde: "img/LUXURY/VERDE.webp",
-            Gris: "img/LUXURY/GRIS.webp",
-            Negro: "img/LUXURY/NEGRO.webp"
+            Beige: "img/minimalista/LUXURY/BEIGE.webp",
+            Marron: "img/minimalista/LUXURY/MARRON.webp",
+            Vainilla: "img/minimalista/LUXURY/VAINILLA.webp",
+            Verde: "img/minimalista/LUXURY/VERDE.webp",
+            Gris: "img/minimalista/LUXURY/GRIS.webp",
+            Negro: "img/minimalista/LUXURY/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -169,16 +169,16 @@ const productos = [
         nombre: "CREATIVE",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/CREATIVE/NEGRO.webp",
-        imagenSecundaria: "img/CREATIVE/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/CREATIVE/NEGRO.webp",
+        imagenSecundaria: "img/minimalista/CREATIVE/BEIGE.webp",
         colores: {
-            Beige: "img/CREATIVE/BEIGE.webp",
-            Marron: "img/CREATIVE/MARRON.webp",
-            Vainilla: "img/CREATIVE/VAINILLA.webp",
-            Verde: "img/CREATIVE/VERDE.webp",
-            Blanco: "img/CREATIVE/BLANCO.webp",
-            Gris: "img/CREATIVE/GRIS.webp",
-            Negro: "img/CREATIVE/NEGRO.webp"
+            Beige: "img/minimalista/CREATIVE/BEIGE.webp",
+            Marron: "img/minimalista/CREATIVE/MARRON.webp",
+            Vainilla: "img/minimalista/CREATIVE/VAINILLA.webp",
+            Verde: "img/minimalista/CREATIVE/VERDE.webp",
+            Blanco: "img/minimalista/CREATIVE/BLANCO.webp",
+            Gris: "img/minimalista/CREATIVE/GRIS.webp",
+            Negro: "img/minimalista/CREATIVE/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -188,15 +188,15 @@ const productos = [
         nombre: "PERSONALITY",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/PERSONALITY/BEIGE.webp",
-        imagenSecundaria: "img/PERSONALITY/MARRON.webp",
+        imagenPrincipal: "img/minimalista/PERSONALITY/BEIGE.webp",
+        imagenSecundaria: "img/minimalista/PERSONALITY/MARRON.webp",
         colores: {
-            Beige: "img/PERSONALITY/BEIGE.webp",
-            Marron: "img/PERSONALITY/MARRON.webp",
-            Vainilla: "img/PERSONALITY/VAINILLA.webp",
-            Verde: "img/PERSONALITY/VERDE.webp",
-            Gris: "img/PERSONALITY/GRIS.webp",
-            Negro: "img/PERSONALITY/NEGRO.webp"
+            Beige: "img/minimalista/PERSONALITY/BEIGE.webp",
+            Marron: "img/minimalista/PERSONALITY/MARRON.webp",
+            Vainilla: "img/minimalista/PERSONALITY/VAINILLA.webp",
+            Verde: "img/minimalista/PERSONALITY/VERDE.webp",
+            Gris: "img/minimalista/PERSONALITY/GRIS.webp",
+            Negro: "img/minimalista/PERSONALITY/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -206,16 +206,16 @@ const productos = [
         nombre: "FREESTYLE",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/FREESTYLE/NEGRO.webp",
-        imagenSecundaria: "img/FREESTYLE/BLANCO.webp",
+        imagenPrincipal: "img/minimalista/FREESTYLE/NEGRO.webp",
+        imagenSecundaria: "img/minimalista/FREESTYLE/BLANCO.webp",
         colores: {
-            Beige: "img/FREESTYLE/BEIGE.webp",
-            Marron: "img/FREESTYLE/MARRON.webp",
-            Vainilla: "img/FREESTYLE/VAINILLA.webp",
-            Verde: "img/FREESTYLE/VERDE.webp",
-            Blanco: "img/FREESTYLE/BLANCO.webp",
-            Gris: "img/FREESTYLE/GRIS.webp",
-            Negro: "img/FREESTYLE/NEGRO.webp"
+            Beige: "img/minimalista/FREESTYLE/BEIGE.webp",
+            Marron: "img/minimalista/FREESTYLE/MARRON.webp",
+            Vainilla: "img/minimalista/FREESTYLE/VAINILLA.webp",
+            Verde: "img/minimalista/FREESTYLE/VERDE.webp",
+            Blanco: "img/minimalista/FREESTYLE/BLANCO.webp",
+            Gris: "img/minimalista/FREESTYLE/GRIS.webp",
+            Negro: "img/minimalista/FREESTYLE/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -225,16 +225,16 @@ const productos = [
         nombre: "DREAM",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/DREAM/VERDE.webp",
-        imagenSecundaria: "img/DREAM/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/DREAM/VERDE.webp",
+        imagenSecundaria: "img/minimalista/DREAM/BEIGE.webp",
         colores: {
-            Beige: "img/DREAM/BEIGE.webp",
-            Marron: "img/DREAM/MARRON.webp",
-            Vainilla: "img/DREAM/VAINILLA.webp",
-            Verde: "img/DREAM/VERDE.webp",
-            Blanco: "img/DREAM/BLANCO.webp",
-            Gris: "img/DREAM/GRIS.webp",
-            Negro: "img/DREAM/NEGRO.webp"
+            Beige: "img/minimalista/DREAM/BEIGE.webp",
+            Marron: "img/minimalista/DREAM/MARRON.webp",
+            Vainilla: "img/minimalista/DREAM/VAINILLA.webp",
+            Verde: "img/minimalista/DREAM/VERDE.webp",
+            Blanco: "img/minimalista/DREAM/BLANCO.webp",
+            Gris: "img/minimalista/DREAM/GRIS.webp",
+            Negro: "img/minimalista/DREAM/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -244,16 +244,16 @@ const productos = [
         nombre: "W",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/W/BEIGE.webp",
-        imagenSecundaria: "img/W/MARRON.webp",
+        imagenPrincipal: "img/minimalista/W/BEIGE.webp",
+        imagenSecundaria: "img/minimalista/W/MARRON.webp",
         colores: {
-            Beige: "img/W/BEIGE.webp",
-            Marron: "img/W/MARRON.webp",
-            Vainilla: "img/W/VAINILLA.webp",
-            Verde: "img/W/VERDE.webp",
-            Blanco: "img/W/BLANCO.webp",
-            Gris: "img/W/GRIS.webp",
-            Negro: "img/W/NEGRO.webp"
+            Beige: "img/minimalista/W/BEIGE.webp",
+            Marron: "img/minimalista/W/MARRON.webp",
+            Vainilla: "img/minimalista/W/VAINILLA.webp",
+            Verde: "img/minimalista/W/VERDE.webp",
+            Blanco: "img/minimalista/W/BLANCO.webp",
+            Gris: "img/minimalista/W/GRIS.webp",
+            Negro: "img/minimalista/W/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -263,16 +263,16 @@ const productos = [
         nombre: "TO BELIEVE",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/TO_BELIEVE/VERDE.webp",
-        imagenSecundaria: "img/TO_BELIEVE/VAINILLA.webp",
+        imagenPrincipal: "img/minimalista/TO_BELIEVE/VERDE.webp",
+        imagenSecundaria: "img/minimalista/TO_BELIEVE/VAINILLA.webp",
         colores: {
-            Beige: "img/TO_BELIEVE/BEIGE.webp",
-            Marron: "img/TO_BELIEVE/MARRON.webp",
-            Vainilla: "img/TO_BELIEVE/VAINILLA.webp",
-            Verde: "img/TO_BELIEVE/VERDE.webp",
-            Blanco: "img/TO_BELIEVE/BLANCO.webp",
-            Gris: "img/TO_BELIEVE/GRIS.webp",
-            Negro: "img/TO_BELIEVE/NEGRO.webp"
+            Beige: "img/minimalista/TO_BELIEVE/BEIGE.webp",
+            Marron: "img/minimalista/TO_BELIEVE/MARRON.webp",
+            Vainilla: "img/minimalista/TO_BELIEVE/VAINILLA.webp",
+            Verde: "img/minimalista/TO_BELIEVE/VERDE.webp",
+            Blanco: "img/minimalista/TO_BELIEVE/BLANCO.webp",
+            Gris: "img/minimalista/TO_BELIEVE/GRIS.webp",
+            Negro: "img/minimalista/TO_BELIEVE/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -282,10 +282,10 @@ const productos = [
         nombre: "DEMON",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/DEMON/BLANCO1.webp",
-        imagenSecundaria: "img/DEMON/BLANCO.webp",
+        imagenPrincipal: "img/minimalista/DEMON/BLANCO1.webp",
+        imagenSecundaria: "img/minimalista/DEMON/BLANCO.webp",
         colores: {
-            Blanco: "img/DEMON/BLANCO.webp"
+            Blanco: "img/minimalista/DEMON/BLANCO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -295,16 +295,16 @@ const productos = [
         nombre: "DANGER",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/DANGER/GRIS.webp",
-        imagenSecundaria: "img/DANGER/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/DANGER/GRIS.webp",
+        imagenSecundaria: "img/minimalista/DANGER/BEIGE.webp",
         colores: {
-            Beige: "img/DANGER/BEIGE.webp",
-            Marron: "img/DANGER/MARRON.webp",
-            Vainilla: "img/DANGER/VAINILLA.webp",
-            Verde: "img/DANGER/VERDE.webp",
-            Blanco: "img/DANGER/BLANCO.webp",
-            Gris: "img/DANGER/GRIS.webp",
-            Negro: "img/DANGER/NEGRO.webp"
+            Beige: "img/minimalista/DANGER/BEIGE.webp",
+            Marron: "img/minimalista/DANGER/MARRON.webp",
+            Vainilla: "img/minimalista/DANGER/VAINILLA.webp",
+            Verde: "img/minimalista/DANGER/VERDE.webp",
+            Blanco: "img/minimalista/DANGER/BLANCO.webp",
+            Gris: "img/minimalista/DANGER/GRIS.webp",
+            Negro: "img/minimalista/DANGER/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -314,13 +314,13 @@ const productos = [
         nombre: "CHILL",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/CHILL/BLANCO.webp",
-        imagenSecundaria: "img/CHILL/VERDE.webp",
+        imagenPrincipal: "img/minimalista/CHILL/BLANCO.webp",
+        imagenSecundaria: "img/minimalista/CHILL/VERDE.webp",
         colores: {
-            Beige: "img/CHILL/BEIGE.webp",
-            Vainilla: "img/CHILL/VAINILLA.webp",
-            Verde: "img/CHILL/VERDE.webp",
-            Blanco: "img/CHILL/BLANCO.webp"
+            Beige: "img/minimalista/CHILL/BEIGE.webp",
+            Vainilla: "img/minimalista/CHILL/VAINILLA.webp",
+            Verde: "img/minimalista/CHILL/VERDE.webp",
+            Blanco: "img/minimalista/CHILL/BLANCO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -330,13 +330,13 @@ const productos = [
         nombre: "LOGO FREEDOM",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/LOGO_FREEDOM/NEGRO1.webp",
-        imagenSecundaria: "img/LOGO_FREEDOM/MARRON.webp",
+        imagenPrincipal: "img/minimalista/LOGO_FREEDOM/NEGRO1.webp",
+        imagenSecundaria: "img/minimalista/LOGO_FREEDOM/MARRON.webp",
         colores: {
-            Marron: "img/LOGO_FREEDOM/MARRON.webp",
-            Verde: "img/LOGO_FREEDOM/VERDE.webp",
-            Gris: "img/LOGO_FREEDOM/GRIS.webp",
-            Negro: "img/LOGO_FREEDOM/NEGRO.webp"
+            Marron: "img/minimalista/LOGO_FREEDOM/MARRON.webp",
+            Verde: "img/minimalista/LOGO_FREEDOM/VERDE.webp",
+            Gris: "img/minimalista/LOGO_FREEDOM/GRIS.webp",
+            Negro: "img/minimalista/LOGO_FREEDOM/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -346,16 +346,16 @@ const productos = [
         nombre: "GOOD VIBES",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/GOOD_VIBES/MARRON1.webp",
-        imagenSecundaria: "img/GOOD_VIBES/NEGRO.webp",
+        imagenPrincipal: "img/minimalista/GOOD_VIBES/MARRON1.webp",
+        imagenSecundaria: "img/minimalista/GOOD_VIBES/NEGRO.webp",
         colores: {
-            Beige: "img/GOOD_VIBES/BEIGE.webp",
-            Marron: "img/GOOD_VIBES/MARRON.webp",
-            Vainilla: "img/GOOD_VIBES/VAINILLA.webp",
-            Verde: "img/GOOD_VIBES/VERDE.webp",
-            Blanco: "img/GOOD_VIBES/BLANCO.webp",
-            Gris: "img/GOOD_VIBES/GRIS.webp",
-            Negro: "img/GOOD_VIBES/NEGRO.webp"
+            Beige: "img/minimalista/GOOD_VIBES/BEIGE.webp",
+            Marron: "img/minimalista/GOOD_VIBES/MARRON.webp",
+            Vainilla: "img/minimalista/GOOD_VIBES/VAINILLA.webp",
+            Verde: "img/minimalista/GOOD_VIBES/VERDE.webp",
+            Blanco: "img/minimalista/GOOD_VIBES/BLANCO.webp",
+            Gris: "img/minimalista/GOOD_VIBES/GRIS.webp",
+            Negro: "img/minimalista/GOOD_VIBES/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -365,16 +365,16 @@ const productos = [
         nombre: "CENSORED",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/CENSORED/BLANCO.webp",
-        imagenSecundaria: "img/CENSORED/VERDE.webp",
+        imagenPrincipal: "img/minimalista/CENSORED/BLANCO.webp",
+        imagenSecundaria: "img/minimalista/CENSORED/VERDE.webp",
         colores: {
-            Beige: "img/CENSORED/BEIGE.webp",
-            Marron: "img/CENSORED/MARRON.webp",
-            Vainilla: "img/CENSORED/VAINILLA.webp",
-            Verde: "img/CENSORED/VERDE.webp",
-            Blanco: "img/CENSORED/BLANCO.webp",
-            Gris: "img/CENSORED/GRIS.webp",
-            Negro: "img/CENSORED/NEGRO.webp"
+            Beige: "img/minimalista/CENSORED/BEIGE.webp",
+            Marron: "img/minimalista/CENSORED/MARRON.webp",
+            Vainilla: "img/minimalista/CENSORED/VAINILLA.webp",
+            Verde: "img/minimalista/CENSORED/VERDE.webp",
+            Blanco: "img/minimalista/CENSORED/BLANCO.webp",
+            Gris: "img/minimalista/CENSORED/GRIS.webp",
+            Negro: "img/minimalista/CENSORED/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -384,13 +384,13 @@ const productos = [
         nombre: "STREET CULTURE",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/STREET_CULTURE/BLANCO1.webp",
-        imagenSecundaria: "img/STREET_CULTURE/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/STREET_CULTURE/BLANCO1.webp",
+        imagenSecundaria: "img/minimalista/STREET_CULTURE/BEIGE.webp",
         colores: {
-            Beige: "img/STREET_CULTURE/BEIGE.webp",
-            Vainilla: "img/STREET_CULTURE/VAINILLA.webp",
-            Verde: "img/STREET_CULTURE/VERDE.webp",
-            Blanco: "img/STREET_CULTURE/BLANCO.webp"
+            Beige: "img/minimalista/STREET_CULTURE/BEIGE.webp",
+            Vainilla: "img/minimalista/STREET_CULTURE/VAINILLA.webp",
+            Verde: "img/minimalista/STREET_CULTURE/VERDE.webp",
+            Blanco: "img/minimalista/STREET_CULTURE/BLANCO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -400,13 +400,13 @@ const productos = [
         nombre: "INFINITE UNIVERSE",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/INFINITE_UNIVERSE/BEIGE.webp",
-        imagenSecundaria: "img/INFINITE_UNIVERSE/MARRON.webp",
+        imagenPrincipal: "img/minimalista/INFINITE_UNIVERSE/BEIGE.webp",
+        imagenSecundaria: "img/minimalista/INFINITE_UNIVERSE/MARRON.webp",
         colores: {
-            Beige: "img/INFINITE_UNIVERSE/BEIGE.webp",
-            Marron: "img/INFINITE_UNIVERSE/MARRON.webp",
-            Vainilla: "img/INFINITE_UNIVERSE/VAINILLA.webp",
-            Blanco: "img/INFINITE_UNIVERSE/BLANCO.webp"
+            Beige: "img/minimalista/INFINITE_UNIVERSE/BEIGE.webp",
+            Marron: "img/minimalista/INFINITE_UNIVERSE/MARRON.webp",
+            Vainilla: "img/minimalista/INFINITE_UNIVERSE/VAINILLA.webp",
+            Blanco: "img/minimalista/INFINITE_UNIVERSE/BLANCO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -416,14 +416,14 @@ const productos = [
         nombre: "BIG DREAM BIG ACT",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/BIG_DREAM_BIG_ACT/GRIS.webp",
-        imagenSecundaria: "img/BIG_DREAM_BIG_ACT/VERDE.webp",
+        imagenPrincipal: "img/minimalista/BIG_DREAM_BIG_ACT/GRIS.webp",
+        imagenSecundaria: "img/minimalista/BIG_DREAM_BIG_ACT/VERDE.webp",
         colores: {
-            Beige: "img/BIG_DREAM_BIG_ACT/BEIGE.webp",
-            Marron: "img/BIG_DREAM_BIG_ACT/MARRON.webp",
-            Verde: "img/BIG_DREAM_BIG_ACT/VERDE.webp",
-            Gris: "img/BIG_DREAM_BIG_ACT/GRIS.webp",
-            Negro: "img/BIG_DREAM_BIG_ACT/NEGRO.webp"
+            Beige: "img/minimalista/BIG_DREAM_BIG_ACT/BEIGE.webp",
+            Marron: "img/minimalista/BIG_DREAM_BIG_ACT/MARRON.webp",
+            Verde: "img/minimalista/BIG_DREAM_BIG_ACT/VERDE.webp",
+            Gris: "img/minimalista/BIG_DREAM_BIG_ACT/GRIS.webp",
+            Negro: "img/minimalista/BIG_DREAM_BIG_ACT/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -433,13 +433,13 @@ const productos = [
         nombre: "AUTHENTIC",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/AUTHENTIC/MARRON.webp",
-        imagenSecundaria: "img/AUTHENTIC/NEGRO.webp",
+        imagenPrincipal: "img/minimalista/AUTHENTIC/MARRON.webp",
+        imagenSecundaria: "img/minimalista/AUTHENTIC/NEGRO.webp",
         colores: {
-            Marron: "img/AUTHENTIC/MARRON.webp",
-            Verde: "img/AUTHENTIC/VERDE.webp",
-            Gris: "img/AUTHENTIC/GRIS.webp",
-            Negro: "img/AUTHENTIC/NEGRO.webp"
+            Marron: "img/minimalista/AUTHENTIC/MARRON.webp",
+            Verde: "img/minimalista/AUTHENTIC/VERDE.webp",
+            Gris: "img/minimalista/AUTHENTIC/GRIS.webp",
+            Negro: "img/minimalista/AUTHENTIC/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -449,16 +449,16 @@ const productos = [
         nombre: "RESISTENCIA QUE INSPIRA",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/RESISTENCIA_QUE_INSPIRA/NEGRO.webp",
-        imagenSecundaria: "img/RESISTENCIA_QUE_INSPIRA/GRIS.webp",
+        imagenPrincipal: "img/minimalista/RESISTENCIA_QUE_INSPIRA/NEGRO.webp",
+        imagenSecundaria: "img/minimalista/RESISTENCIA_QUE_INSPIRA/GRIS.webp",
         colores: {
-            Beige: "img/RESISTENCIA_QUE_INSPIRA/BEIGE.webp",
-            Marron: "img/RESISTENCIA_QUE_INSPIRA/MARRON.webp",
-            Vainilla: "img/RESISTENCIA_QUE_INSPIRA/VAINILLA.webp",
-            Verde: "img/RESISTENCIA_QUE_INSPIRA/VERDE.webp",
-            Blanco: "img/RESISTENCIA_QUE_INSPIRA/BLANCO.webp",
-            Gris: "img/RESISTENCIA_QUE_INSPIRA/GRIS.webp",
-            Negro: "img/RESISTENCIA_QUE_INSPIRA/NEGRO.webp"
+            Beige: "img/minimalista/RESISTENCIA_QUE_INSPIRA/BEIGE.webp",
+            Marron: "img/minimalista/RESISTENCIA_QUE_INSPIRA/MARRON.webp",
+            Vainilla: "img/minimalista/RESISTENCIA_QUE_INSPIRA/VAINILLA.webp",
+            Verde: "img/minimalista/RESISTENCIA_QUE_INSPIRA/VERDE.webp",
+            Blanco: "img/minimalista/RESISTENCIA_QUE_INSPIRA/BLANCO.webp",
+            Gris: "img/minimalista/RESISTENCIA_QUE_INSPIRA/GRIS.webp",
+            Negro: "img/minimalista/RESISTENCIA_QUE_INSPIRA/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -468,14 +468,14 @@ const productos = [
         nombre: "PATHETIC",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/PATHETIC/VERDE.webp",
-        imagenSecundaria: "img/PATHETIC/BEIGE.webp",
+        imagenPrincipal: "img/minimalista/PATHETIC/VERDE.webp",
+        imagenSecundaria: "img/minimalista/PATHETIC/BEIGE.webp",
         colores: {
-            Beige: "img/PATHETIC/BEIGE.webp",
-            Marron: "img/PATHETIC/MARRON.webp",
-            Verde: "img/PATHETIC/VERDE.webp",
-            Gris: "img/PATHETIC/GRIS.webp",
-            Negro: "img/PATHETIC/NEGRO.webp"
+            Beige: "img/minimalista/PATHETIC/BEIGE.webp",
+            Marron: "img/minimalista/PATHETIC/MARRON.webp",
+            Verde: "img/minimalista/PATHETIC/VERDE.webp",
+            Gris: "img/minimalista/PATHETIC/GRIS.webp",
+            Negro: "img/minimalista/PATHETIC/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -485,16 +485,16 @@ const productos = [
         nombre: "MAKE YOUR MAKE",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/MAKE_YOUR_MAKE/BEIGE.webp",
-        imagenSecundaria: "img/MAKE_YOUR_MAKE/MARRON.webp",
+        imagenPrincipal: "img/minimalista/MAKE_YOUR_MAKE/BEIGE.webp",
+        imagenSecundaria: "img/minimalista/MAKE_YOUR_MAKE/MARRON.webp",
         colores: {
-            Beige: "img/MAKE_YOUR_MAKE/BEIGE.webp",
-            Marron: "img/MAKE_YOUR_MAKE/MARRON.webp",
-            Vainilla: "img/MAKE_YOUR_MAKE/VAINILLA.webp",
-            Verde: "img/MAKE_YOUR_MAKE/VERDE.webp",
-            Blanco: "img/MAKE_YOUR_MAKE/BLANCO.webp",
-            Gris: "img/MAKE_YOUR_MAKE/GRIS.webp",
-            Negro: "img/MAKE_YOUR_MAKE/NEGRO.webp"
+            Beige: "img/minimalista/MAKE_YOUR_MAKE/BEIGE.webp",
+            Marron: "img/minimalista/MAKE_YOUR_MAKE/MARRON.webp",
+            Vainilla: "img/minimalista/MAKE_YOUR_MAKE/VAINILLA.webp",
+            Verde: "img/minimalista/MAKE_YOUR_MAKE/VERDE.webp",
+            Blanco: "img/minimalista/MAKE_YOUR_MAKE/BLANCO.webp",
+            Gris: "img/minimalista/MAKE_YOUR_MAKE/GRIS.webp",
+            Negro: "img/minimalista/MAKE_YOUR_MAKE/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -504,16 +504,16 @@ const productos = [
         nombre: "LIBERTAD EN CADA PASO",
         tipo: "T-Shirt",
         precio: "$55.000",
-        imagenPrincipal: "img/LIBERTAD_EN_CADA_PASO/BLANCO.webp",
-        imagenSecundaria: "img/LIBERTAD_EN_CADA_PASO/VAINILLA.webp",
+        imagenPrincipal: "img/minimalista/LIBERTAD_EN_CADA_PASO/BLANCO.webp",
+        imagenSecundaria: "img/minimalista/LIBERTAD_EN_CADA_PASO/VAINILLA.webp",
         colores: {
-            Beige: "img/LIBERTAD_EN_CADA_PASO/BEIGE.webp",
-            Marron: "img/LIBERTAD_EN_CADA_PASO/MARRON.webp",
-            Vainilla: "img/LIBERTAD_EN_CADA_PASO/VAINILLA.webp",
-            Verde: "img/LIBERTAD_EN_CADA_PASO/VERDE.webp",
-            Blanco: "img/LIBERTAD_EN_CADA_PASO/BLANCO.webp",
-            Gris: "img/LIBERTAD_EN_CADA_PASO/GRIS.webp",
-            Negro: "img/LIBERTAD_EN_CADA_PASO/NEGRO.webp"
+            Beige: "img/minimalista/LIBERTAD_EN_CADA_PASO/BEIGE.webp",
+            Marron: "img/minimalista/LIBERTAD_EN_CADA_PASO/MARRON.webp",
+            Vainilla: "img/minimalista/LIBERTAD_EN_CADA_PASO/VAINILLA.webp",
+            Verde: "img/minimalista/LIBERTAD_EN_CADA_PASO/VERDE.webp",
+            Blanco: "img/minimalista/LIBERTAD_EN_CADA_PASO/BLANCO.webp",
+            Gris: "img/minimalista/LIBERTAD_EN_CADA_PASO/GRIS.webp",
+            Negro: "img/minimalista/LIBERTAD_EN_CADA_PASO/NEGRO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
