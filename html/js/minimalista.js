@@ -3,7 +3,7 @@ const productos = [
         id: 1,
         nombre: "DARK FUTURE",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/DARK_FUTURE/VERDE.webp",
         imagenSecundaria: "img/minimalista/DARK_FUTURE/BEIGE.webp",
         colores: {
@@ -22,7 +22,7 @@ const productos = [
         id: 2,
         nombre: "NEUTRALS",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/NEUTRALS/BLANCO.webp",
         imagenSecundaria: "img/minimalista/NEUTRALS/BEIGE.webp",
         colores: {
@@ -37,7 +37,7 @@ const productos = [
         id: 3,
         nombre: "KEEP ON GOING",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/KEEP_ON_GOING/NEGRO.webp",
         imagenSecundaria: "img/minimalista/KEEP_ON_GOING/BEIGE.webp",
         colores: {
@@ -56,7 +56,7 @@ const productos = [
         id: 4,
         nombre: "BURBERRY",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/BURBERRY/BEIGE.webp",
         imagenSecundaria: "img/minimalista/BURBERRY/BLANCO.webp",
         colores: {
@@ -75,7 +75,7 @@ const productos = [
         id: 5,
         nombre: "BEAUTIFUL",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/BEAUTIFUL/NEGRO.webp",
         imagenSecundaria: "img/minimalista/BEAUTIFUL/GRIS.webp",
         colores: {
@@ -94,7 +94,7 @@ const productos = [
         id: 6,
         nombre: "RESISTANCE THAT INSPIRES",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/RESISTANCE_THAT_INSPIRES/MARRON1.webp",
         imagenSecundaria: "img/minimalista/RESISTANCE_THAT_INSPIRES/BEIGE.webp",
         colores: {
@@ -113,7 +113,7 @@ const productos = [
         id: 7,
         nombre: "RANDOM",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/RANDOM/VERDE.webp",
         imagenSecundaria: "img/minimalista/RANDOM/BEIGE.webp",
         colores: {
@@ -132,7 +132,7 @@ const productos = [
         id: 8,
         nombre: "MADE IN THE IMAGE OF GOD",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/VAINILLA.webp",
         imagenSecundaria: "img/minimalista/MADE_IN_THE_IMAGE_OF_GOD/VERDE.webp",
         colores: {
@@ -151,7 +151,7 @@ const productos = [
         id: 9,
         nombre: "LUXURY",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/LUXURY/GRIS.webp",
         imagenSecundaria: "img/minimalista/LUXURY/VAINILLA.webp",
         colores: {
@@ -168,7 +168,7 @@ const productos = [
         id: 10,
         nombre: "CREATIVE",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/CREATIVE/NEGRO.webp",
         imagenSecundaria: "img/minimalista/CREATIVE/BEIGE.webp",
         colores: {
@@ -187,7 +187,7 @@ const productos = [
         id: 11,
         nombre: "PERSONALITY",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/PERSONALITY/BEIGE.webp",
         imagenSecundaria: "img/minimalista/PERSONALITY/MARRON.webp",
         colores: {
@@ -205,7 +205,7 @@ const productos = [
         id: 12,
         nombre: "FREESTYLE",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/FREESTYLE/NEGRO.webp",
         imagenSecundaria: "img/minimalista/FREESTYLE/BLANCO.webp",
         colores: {
@@ -224,7 +224,7 @@ const productos = [
         id: 13,
         nombre: "DREAM",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/DREAM/VERDE.webp",
         imagenSecundaria: "img/minimalista/DREAM/BEIGE.webp",
         colores: {
@@ -243,7 +243,7 @@ const productos = [
         id: 14,
         nombre: "W",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/W/BEIGE.webp",
         imagenSecundaria: "img/minimalista/W/MARRON.webp",
         colores: {
@@ -262,7 +262,7 @@ const productos = [
         id: 15,
         nombre: "TO BELIEVE",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/TO_BELIEVE/VERDE.webp",
         imagenSecundaria: "img/minimalista/TO_BELIEVE/VAINILLA.webp",
         colores: {
@@ -281,7 +281,7 @@ const productos = [
         id: 16,
         nombre: "DEMON",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/DEMON/BLANCO1.webp",
         imagenSecundaria: "img/minimalista/DEMON/BLANCO.webp",
         colores: {
@@ -294,7 +294,7 @@ const productos = [
         id: 17,
         nombre: "DANGER",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/DANGER/GRIS.webp",
         imagenSecundaria: "img/minimalista/DANGER/BEIGE.webp",
         colores: {
@@ -313,7 +313,7 @@ const productos = [
         id: 18,
         nombre: "CHILL",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/CHILL/BLANCO.webp",
         imagenSecundaria: "img/minimalista/CHILL/VERDE.webp",
         colores: {
@@ -329,7 +329,7 @@ const productos = [
         id: 19,
         nombre: "LOGO FREEDOM",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/LOGO_FREEDOM/NEGRO1.webp",
         imagenSecundaria: "img/minimalista/LOGO_FREEDOM/MARRON.webp",
         colores: {
@@ -345,7 +345,7 @@ const productos = [
         id: 20,
         nombre: "GOOD VIBES",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/GOOD_VIBES/MARRON1.webp",
         imagenSecundaria: "img/minimalista/GOOD_VIBES/NEGRO.webp",
         colores: {
@@ -364,7 +364,7 @@ const productos = [
         id: 21,
         nombre: "CENSORED",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/CENSORED/BLANCO.webp",
         imagenSecundaria: "img/minimalista/CENSORED/VERDE.webp",
         colores: {
@@ -383,7 +383,7 @@ const productos = [
         id: 22,
         nombre: "STREET CULTURE",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/STREET_CULTURE/BLANCO1.webp",
         imagenSecundaria: "img/minimalista/STREET_CULTURE/BEIGE.webp",
         colores: {
@@ -399,7 +399,7 @@ const productos = [
         id: 23,
         nombre: "INFINITE UNIVERSE",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/INFINITE_UNIVERSE/BEIGE.webp",
         imagenSecundaria: "img/minimalista/INFINITE_UNIVERSE/MARRON.webp",
         colores: {
@@ -415,7 +415,7 @@ const productos = [
         id: 24,
         nombre: "BIG DREAM BIG ACT",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/BIG_DREAM_BIG_ACT/GRIS.webp",
         imagenSecundaria: "img/minimalista/BIG_DREAM_BIG_ACT/VERDE.webp",
         colores: {
@@ -432,7 +432,7 @@ const productos = [
         id: 25,
         nombre: "AUTHENTIC",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/AUTHENTIC/MARRON.webp",
         imagenSecundaria: "img/minimalista/AUTHENTIC/NEGRO.webp",
         colores: {
@@ -448,7 +448,7 @@ const productos = [
         id: 26,
         nombre: "RESISTENCIA QUE INSPIRA",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/RESISTENCIA_QUE_INSPIRA/NEGRO.webp",
         imagenSecundaria: "img/minimalista/RESISTENCIA_QUE_INSPIRA/GRIS.webp",
         colores: {
@@ -467,7 +467,7 @@ const productos = [
         id: 27,
         nombre: "PATHETIC",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/PATHETIC/VERDE.webp",
         imagenSecundaria: "img/minimalista/PATHETIC/BEIGE.webp",
         colores: {
@@ -484,7 +484,7 @@ const productos = [
         id: 28,
         nombre: "MAKE YOUR MAKE",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/MAKE_YOUR_MAKE/BEIGE.webp",
         imagenSecundaria: "img/minimalista/MAKE_YOUR_MAKE/MARRON.webp",
         colores: {
@@ -503,7 +503,7 @@ const productos = [
         id: 29,
         nombre: "LIBERTAD EN CADA PASO",
         tipo: "T-Shirt",
-        precio: "$55.000",
+        precio: "$60.000",
         imagenPrincipal: "img/minimalista/LIBERTAD_EN_CADA_PASO/BLANCO.webp",
         imagenSecundaria: "img/minimalista/LIBERTAD_EN_CADA_PASO/VAINILLA.webp",
         colores: {

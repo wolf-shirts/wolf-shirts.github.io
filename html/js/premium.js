@@ -3,7 +3,7 @@ const productos = [
         id: 1,
         nombre: "THAT'S IT",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/THAT/BLANCO.webp",
         imagenSecundaria: "img/premium/THAT/BLANCO.webp",
         colores: {
@@ -16,14 +16,13 @@ const productos = [
         id: 2,
         nombre: "UNITED",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/UNITED/NEGRO.webp",
-        imagenSecundaria: "img/premium/UNITED/MARRON.webp",
+        imagenSecundaria: "img/premium/UNITED/VERDE.webp",
         colores: {
             Gris: "img/premium/UNITED/GRIS.webp",
             Verde: "img/premium/UNITED/VERDE.webp",
             Negro: "img/premium/UNITED/NEGRO.webp",
-            Marron: "img/premium/UNITED/MARRON.webp",
         },
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -32,12 +31,11 @@ const productos = [
         id: 3,
         nombre: "TUPAC",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/TUPAC/BLANCO.webp",
         imagenSecundaria: "img/premium/TUPAC/BEIGE.webp",
         colores: {
             Beige: "img/premium/TUPAC/BEIGE.webp",
-            Vainilla: "img/premium/TUPAC/VAINILLA.webp",
             Blanco: "img/premium/TUPAC/BLANCO.webp"
         },
         tallas: ["S", "M", "L", "XL"],
@@ -47,7 +45,7 @@ const productos = [
         id: 4,
         nombre: "INFINITE UNIVERSE",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/INFINITE_UNIVERSE/BLANCO.webp",
         imagenSecundaria: "img/premium/INFINITE_UNIVERSE/VAINILLA.webp",
         colores: {
@@ -61,13 +59,11 @@ const productos = [
         id: 5,
         nombre: "FUTURE",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/FUTURE/BEIGE.webp",
         imagenSecundaria: "img/premium/FUTURE/MARRON.webp",
         colores: {
             Beige: "img/premium/FUTURE/BEIGE.webp",
-            Marron: "img/premium/FUTURE/MARRON.webp",
-            Vainilla: "img/premium/FUTURE/VAINILLA.webp",
             Blanco: "img/premium/FUTURE/BLANCO.webp",
         },
         tallas: ["S", "M", "L", "XL"],
@@ -77,7 +73,7 @@ const productos = [
         id: 6,
         nombre: "FREEDOM",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/FREEDOM/BLANCO.webp",
         imagenSecundaria: "img/premium/FREEDOM/BEIGE.webp",
         colores: {
@@ -92,7 +88,7 @@ const productos = [
         id: 7,
         nombre: "DONT TOUCH ME",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/DONT_TOUCH_ME/MARRON.webp",
         imagenSecundaria: "img/premium/DONT_TOUCH_ME/BEIGE.webp",
         colores: {
@@ -109,7 +105,7 @@ const productos = [
         id: 8,
         nombre: "CENSORED",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/CENSORED/NEGRO.webp",
         imagenSecundaria: "img/premium/CENSORED/VERDE.webp",
         colores: {
@@ -127,7 +123,7 @@ const productos = [
         id: 9,
         nombre: "BIG DREAM BIG ACT",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/BIG_DREAM_BIG_ACT/BEIGE.webp",
         imagenSecundaria: "img/premium/BIG_DREAM_BIG_ACT/VAINILLA.webp",
         colores: {
@@ -145,7 +141,7 @@ const productos = [
         id: 10,
         nombre: "BAD THINGS",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/BAD_THINGS/MARRON.webp",
         imagenSecundaria: "img/premium/BAD_THINGS/VERDE.webp",
         colores: {
@@ -160,7 +156,7 @@ const productos = [
         id: 11,
         nombre: "BAB HABIT",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/BAB_HABIT/NEGRO.webp",
         imagenSecundaria: "img/premium/BAB_HABIT/BEIGE.webp",
         colores: {
@@ -178,7 +174,7 @@ const productos = [
         id: 12,
         nombre: "ATTRACTED",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/ATTRACTED/BLANCO.webp",
         imagenSecundaria: "img/premium/ATTRACTED/VERDE.webp",
         colores: {
@@ -193,7 +189,7 @@ const productos = [
         id: 13,
         nombre: "AUTHENTIC",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/AUTHENTIC/VERDE.webp",
         imagenSecundaria: "img/premium/AUTHENTIC/NEGRO.webp",
         colores: {
@@ -210,7 +206,7 @@ const productos = [
         id: 14,
         nombre: "ANGEL NUMBER",
         tipo: "T-Shirt",
-        precio: "$60.000",
+        precio: "$65.000",
         imagenPrincipal: "img/premium/ANGEL_NUMBER/NEGRO.webp",
         imagenSecundaria: "img/premium/ANGEL_NUMBER/VAINILLA.webp",
         colores: {
