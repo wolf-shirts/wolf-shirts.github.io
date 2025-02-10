@@ -1371,17 +1371,17 @@ section,
   bottom: -50px;
   left: 20px;
   right: 20px;
-  padding: 20px 15px;
+  padding: 8px 15px;
   overflow: hidden;
   transition: 0.5s;
 }
 
 .team .member h4 {
   font-weight: 700;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   font-size: 16px;
   position: relative;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 .team .member h4::after {
