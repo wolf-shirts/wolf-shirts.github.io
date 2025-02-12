@@ -319,7 +319,7 @@ const productos = [
         precio: precioVar,
         imagenPrincipal: "img/premium/AKA_BOY/NEGRO.webp",
         imagenSecundaria: "img/premium/AKA_BOY/BEIGE.webp",
-        colores: obtenerColores("", ["NEGRO","BEIGE"]),
+        colores: obtenerColores("AKA_BOY", ["NEGRO","BEIGE"]),
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
     },
@@ -330,7 +330,7 @@ const productos = [
         precio: precioVar,
         imagenPrincipal: "img/premium/BEAR/GRIS.webp",
         imagenSecundaria: "img/premium/BEAR/BLANCO.webp",
-        colores: obtenerColores("", ["Blanco","NEGRO","GRIS"]),
+        colores: obtenerColores("BEAR", ["Blanco","NEGRO","GRIS"]),
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
     },
@@ -341,11 +341,76 @@ const productos = [
         precio: precioVar,
         imagenPrincipal: "img/premium/MONEY_MAKER/BLANCO.webp",
         imagenSecundaria: "img/premium/MONEY_MAKER/BLANCO.webp",
-        colores: obtenerColores("", ["Blanco"]),
+        colores: obtenerColores("MONEY_MAKER", ["Blanco"]),
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
     },
-    
+    {
+        id: 26,
+        nombre: "PECES KOI",
+        tipo: "T-Shirt",
+        precio: precioVar,
+        imagenPrincipal: "img/premium/KOI/NEGRO.webp",
+        imagenSecundaria: "img/premium/KOI/MARRON.webp",
+        colores: obtenerColores("KOI", ["MARRON","NEGRO","GRIS"]),
+        tallas: ["S", "M", "L", "XL"],
+        enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
+    },
+    {
+        id: 27,
+        nombre: "SAN_ANDREAS",
+        tipo: "T-Shirt",
+        precio: precioVar,
+        imagenPrincipal: "img/premium/SAN_ANDREAS/BLANCO.webp",
+        imagenSecundaria: "img/premium/SAN_ANDREAS/BEIGE.webp",
+        colores: obtenerColores("SAN_ANDREAS", ["Blanco","BEIGE","NEGRO"]),
+        tallas: ["S", "M", "L", "XL"],
+        enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
+    },
+    {
+        id: 28,
+        nombre: "ANGEL_GUARDIAN",
+        tipo: "T-Shirt",
+        precio: precioVar,
+        imagenPrincipal: "img/premium/ANGEL_GUARDIAN/NEGRO.webp",
+        imagenSecundaria: "img/premium/ANGEL_GUARDIAN/BLANCO.webp",
+        colores: obtenerColores("ANGEL_GUARDIAN", ["Blanco","VAINILLA","NEGRO"]),
+        tallas: ["S", "M", "L", "XL"],
+        enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
+    },
+    {
+        id: 29,
+        nombre: "WANTED",
+        tipo: "T-Shirt",
+        precio: precioVar,
+        imagenPrincipal: "img/premium/ARTHUR_MORGAN/BLANCO.webp",
+        imagenSecundaria: "img/premium/ARTHUR_MORGAN/BEIGE.webp",
+        colores: obtenerColores("ARTHUR_MORGAN", ["Blanco","BEIGE","NEGRO"]),
+        tallas: ["S", "M", "L", "XL"],
+        enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
+    },
+    {
+        id: 30,
+        nombre: "SUPRA",
+        tipo: "T-Shirt",
+        precio: precioVar,
+        imagenPrincipal: "img/premium/SUPRA/NEGRO.webp",
+        imagenSecundaria: "img/premium/SUPRA/BLANCO.webp",
+        colores: obtenerColores("SUPRA", ["Blanco","GRIS","NEGRO","VAINILLA"]),
+        tallas: ["S", "M", "L", "XL"],
+        enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
+    },
+    {
+        id: 31,
+        nombre: "BLESSED",
+        tipo: "T-Shirt",
+        precio: precioVar,
+        imagenPrincipal: "img/premium/BLESSED/BLANCO.webp",
+        imagenSecundaria: "img/premium/BLESSED/NEGRO.webp",
+        colores: obtenerColores("BLESSED", ["Blanco","MARRON","NEGRO","VAINILLA"]),
+        tallas: ["S", "M", "L", "XL"],
+        enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
+    },
    
     // Agrega más productos según sea necesario
 ];
