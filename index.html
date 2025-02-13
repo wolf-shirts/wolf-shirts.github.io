@@ -41,7 +41,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="assets/img/logo_wolf_T-shirt-blanco.svg" alt="..." /></a>
+            <a class="navbar-brand" href="#page-top"><img id="logo" src="assets/img/logo_wolf_T-shirt-blanco.svg" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -78,7 +78,7 @@
                     <a class="portfolio-box" href="html/minimalista.html" title="Project Name">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
                         <div class="portfolio-box-caption">
-                            <!--div class="project-category text-white-50">Category</div-->
+                            <div class="project-category text-white-100">>>Ver catálogo<<</div>
                             <div class="project-name">Minimalista</div>
                         </div>
                     </a>
@@ -87,7 +87,7 @@
                     <a class="portfolio-box" href="html/premium.html" title="Project Name">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
                         <div class="portfolio-box-caption p-3">
-                            <!--div class="project-category text-white-50">Category</div-->
+                            <div class="project-category text-white-100">>>Ver catálogo<<</div>
                             <div class="project-name">Premium</div>
                         </div>
                     </a>
@@ -219,6 +219,39 @@
             // Muestra el modal automáticamente
             myModal.show();
         });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const logo = document.getElementById("logo");
+        const navLinks = document.querySelectorAll(".nav-link");
+        const whiteLogo = "assets/img/logo_wolf_T-shirt-blanco.svg";
+        const blackLogo = "assets/img/logo_wolf_T-shirt_negro.svg"; // Asegúrate de tener esta imagen en tu carpeta
+        const header = document.querySelector(".masthead"); // Sección con fondo negro
+
+        function checkBackground() {
+            const nav = document.getElementById("mainNav");
+            const navHeight = nav.offsetHeight;
+            const section = document.elementFromPoint(window.innerWidth / 2, navHeight + 1); // Detectar la sección debajo del navbar
+            
+            if (window.scrollY < header.offsetHeight) {
+                // Si estamos en la parte superior, mantener el logo y los links en blanco
+                logo.src = whiteLogo;
+                navLinks.forEach(link => link.style.color = "white");
+            } else if (section) {
+                const bgColor = window.getComputedStyle(section).backgroundColor;
+                if (bgColor === "rgb(0, 0, 0)") {
+                    logo.src = whiteLogo;
+                    navLinks.forEach(link => link.style.color = "white");
+                } else {
+                    logo.src = blackLogo;
+                    navLinks.forEach(link => link.style.color = "black");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", checkBackground);
+        checkBackground(); // Llamada inicial
+    });
     </script>
     
 
