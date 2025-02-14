@@ -358,7 +358,7 @@ const productos = [
     },
     {
         id: 27,
-        nombre: "SAN_ANDREAS",
+        nombre: "SAN ANDREAS",
         tipo: "T-Shirt",
         precio: precioVar,
         imagenPrincipal: "img/premium/SAN_ANDREAS/BLANCO.webp",
@@ -369,7 +369,7 @@ const productos = [
     },
     {
         id: 28,
-        nombre: "ANGEL_GUARDIAN",
+        nombre: "ANGEL GUARDIAN",
         tipo: "T-Shirt",
         precio: precioVar,
         imagenPrincipal: "img/premium/ANGEL_GUARDIAN/NEGRO.webp",
@@ -408,6 +408,17 @@ const productos = [
         imagenPrincipal: "img/premium/BLESSED/BLANCO.webp",
         imagenSecundaria: "img/premium/BLESSED/NEGRO.webp",
         colores: obtenerColores("BLESSED", ["Blanco","MARRON","NEGRO","VAINILLA"]),
+        tallas: ["S", "M", "L", "XL"],
+        enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
+    },
+    {
+        id: 32,
+        nombre: "WOLF",
+        tipo: "T-Shirt",
+        precio: precioVar,
+        imagenPrincipal: "img/premium/WOLF/NEGRO.webp",
+        imagenSecundaria: "img/premium/BLESSED/BLANCO.webp",
+        colores: obtenerColores("WOLF", ["Blanco","NEGRO"]),
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
     },
