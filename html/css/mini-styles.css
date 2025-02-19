@@ -79,3 +79,7 @@
 .pic img {
     transition: 0.3s ease;
 }
+
+span{
+    display: inline !important;
+        }

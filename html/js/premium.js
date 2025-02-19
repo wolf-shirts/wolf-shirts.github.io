@@ -417,7 +417,7 @@ const productos = [
         tipo: "T-Shirt",
         precio: precioVar,
         imagenPrincipal: "img/premium/WOLF/NEGRO.webp",
-        imagenSecundaria: "img/premium/BLESSED/BLANCO.webp",
+        imagenSecundaria: "img/premium/WOLF/BLANCO.webp",
         colores: obtenerColores("WOLF", ["Blanco","NEGRO"]),
         tallas: ["S", "M", "L", "XL"],
         enlaceCompra: "https://api.whatsapp.com/send?phone=573127012192&text=Hola......"
@@ -431,16 +431,25 @@ function mostrarProductos(productosFiltrados) {
     const portfolioContainer = document.getElementById("portfolio-container");
     portfolioContainer.innerHTML = ""; // Limpiar contenido anterior
 
+    const ultimosTres = productosFiltrados.slice(-18); // Últimos 18 productos
+
     productosFiltrados.forEach(producto => {
+        let nombreModificado = producto.nombre;
+
+        // Si el producto está en los últimos tres, añadimos "- NEW" en rojo al lado
+        if (ultimosTres.includes(producto)) {
+            nombreModificado += '  <span style="color: red;"> - NUEVO</span>';
+        }
+
         const productHTML = `
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal${producto.id}">
                 <div class="member">
-                    <div class="pic"><img src="${producto.imagenPrincipal}" class="img-fluid mx-auto d-block" alt="" 
+                    <div class="pic"><img src="${producto.imagenPrincipal}" class="img-fluid mx-auto d-block" alt="WOLF T-SHIRT" 
                                             onmouseover="this.src='${producto.imagenSecundaria}'"
                                             onmouseout="this.src='${producto.imagenPrincipal}'">    </div>
                     <div class="member-info">
-                        <h4>${producto.nombre}</h4>
+                        <h4>${nombreModificado}</h4>
                         <span>${producto.tipo}<br>${producto.precio.toLocaleString()}</span>
                     </div>
                 </div>
@@ -453,6 +462,7 @@ function mostrarProductos(productosFiltrados) {
         generarModal(producto);
     });
 }
+
 
 // Función para generar el modal de un producto
 function generarModal(producto) {
@@ -473,7 +483,7 @@ function generarModal(producto) {
                                     <div class="container-fluid p-0">
                                         <div class="row g-0">
                                             <div class="col-12 col-sm-6 col-md-6 col-lg-6" id="contenedor-imagen-${producto.id}">
-                                                <img src="${producto.imagenPrincipal}" class="d-block w-100" alt="Imagen 1">
+                                                <img src="${producto.imagenPrincipal}" class="d-block w-100" alt="WOLF T-SHIRTS">
                                             </div>
                                             <div class="text-center my-3 col-12 col-sm-6 col-md-6 col-lg-6">
                                                 <h3 class="text-dark">Colores Disponibles</h3>
